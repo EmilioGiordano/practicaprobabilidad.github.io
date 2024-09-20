@@ -8,7 +8,9 @@ Esta aplicación web está diseñada para ayudar a los estudiantes de la UNSAdA 
   
 ## Uso
 
-1. Abre la aplicación en tu navegador.
+1. Abre la aplicación en tu navegador(Descarga el proyecto o utiliza la url: https://emiliogiordano.github.io/practicaprobabilidad.github.io/).
 2. Recarga la página para obtener un nuevo ejercicio aleatorio.
 3. Practica y resuelve el ejercicio.
 4. Corrobora que la respuesta sea correcta.
+
+## 
