@@ -1,5 +1,6 @@
 # Random Exercise: Probabilidad y Estadística - UNSAdA
-Esta aplicación web está diseñada para ayudar a los estudiantes de la UNSAdA a practicar ejercicios aleatorios de diferentes temas de Probabilidad y Estadística. El propósito es evitar la memorización mecánica de los ejercicios y fomentar un enfoque más amplio y reflexivo para la resolución de problemas, similar al ambiente de un examen parcial o final.
+Esta aplicación web está diseñada para ayudar a los estudiantes de la UNSAdA a practicar ejercicios aleatorios de diferentes temas de Probabilidad y Estadística. 
+El propósito es que el estudiante no practique ejercicios dependiendo del tema/unidad de la asignatura para evitar la memorización mecánica y fomentar un enfoque más amplio y reflexivo para la resolución de problemas, similar al ambiente de un examen parcial o final.
 
 ## Funcionalidad
 
