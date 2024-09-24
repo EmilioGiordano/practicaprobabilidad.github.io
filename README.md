@@ -7,11 +7,4 @@ El propósito es que el estudiante no practique ejercicios dependiendo del tema/
 - **Ejercicios aleatorios:** Cada vez que se recarga la página, se muestra un ejercicio nuevo, elegido aleatoriamente de una lista de temas y prácticas.
 - **Respuesta:** La amplia mayoría de ejercicios poseen la resolución.
   
-## Uso
-
-1. Abre la aplicación en tu navegador(Descarga el proyecto o utiliza la url: https://emiliogiordano.github.io/practicaprobabilidad.github.io/).
-2. Recarga la página para obtener un nuevo ejercicio aleatorio.
-3. Practica y resuelve el ejercicio.
-4. Corrobora que la respuesta sea correcta.
-
 ## 
