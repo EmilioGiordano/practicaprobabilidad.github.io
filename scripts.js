@@ -9,10 +9,21 @@ function mostrarEnunciado() {
     imgEnunciado.src = "img/Captura_" + n + "_00.PNG";
     imgRespuesta.src = "img/Captura_" + n + "_01.PNG";
     imgRespuesta.style.visibility = "hidden"; 
+    
+    // Verifica si la respuesta existe
+    imgRespuesta.onload = function() {
+        imgRespuesta.dataset.hasResponse = "true";
+    };
+    imgRespuesta.onerror = function() {
+        imgRespuesta.dataset.hasResponse = "false";
+    };
 }
 
-
-function mostrarRespuesta(atributo) {
+function mostrarRespuesta() {
     var imgRespuesta = document.getElementById("capturaRespuesta");
-    imgRespuesta.style.visibility = atributo;
-  }
+    if (imgRespuesta.dataset.hasResponse === "true") {
+        imgRespuesta.style.visibility = "visible";
+    } else {
+        alert("No hay respuesta disponible para este ejercicio.");
+    }
+}
