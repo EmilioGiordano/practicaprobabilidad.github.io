@@ -8,3 +8,9 @@ El propósito es que el estudiante no practique ejercicios dependiendo del tema/
 - **Respuesta:** La amplia mayoría de ejercicios poseen la resolución.
   
 ## 
+
+## Recomendación
+Para un mejor uso se recomienda clonar el repositorio y utilizarlo localmente.
+```git
+git clone https://github.com/EmilioGiordano/practicaprobabilidad.github.io.git
+```
