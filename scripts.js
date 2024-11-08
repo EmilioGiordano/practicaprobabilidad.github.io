@@ -18,12 +18,20 @@ function mostrarEnunciado() {
         imgRespuesta.dataset.hasResponse = "false";
     };
 }
-
 function mostrarRespuesta() {
     var imgRespuesta = document.getElementById("capturaRespuesta");
     if (imgRespuesta.dataset.hasResponse === "true") {
         imgRespuesta.style.visibility = "visible";
     } else {
-        alert("No hay respuesta disponible para este ejercicio.");
+        Swal.fire({
+            icon: 'info',
+            title: 'Sin respuesta disponible',
+            text: 'No hay respuesta disponible para este ejercicio.',
+            confirmButtonText: 'Entendido'
+        });
     }
+
 }
+document.getElementById('reloadButton').addEventListener('click', function() {
+    location.reload();
+});
